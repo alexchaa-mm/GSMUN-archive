@@ -1,0 +1,18 @@
+# Optional OWNER-APPROVED overlay. Creates no resources by itself.
+# docker compose -f compose.yaml -f compose.drive.yaml ...
+# GSMUN_SECRETS_DIR must be a private absolute path OUTSIDE this repository.
+services:
+  archive:
+    environment:
+      GSMUN_DRIVE_KEY_FILE: /run/gsmun-private/google-drive-service-account.json
+      GSMUN_DRIVE_WORKER_SECRET_FILE: /run/gsmun-private/drive-worker-secret.txt
+      GSMUN_DRIVE_WORKER_SESSION_FILE: /var/lib/gsmun-worker/session.json
+    volumes:
+      - type: bind
+        source: ${GSMUN_SECRETS_DIR:?Set an approved private absolute secrets directory}/google-drive-service-account.json
+        target: /run/gsmun-private/google-drive-service-account.json
+        read_only: true
+      - type: bind
+        source: ${GSMUN_SECRETS_DIR:?Set an approved private absolute secrets directory}/drive-worker-secret.txt
+        target: /run/gsmun-private/drive-worker-secret.txt
+        read_only: true

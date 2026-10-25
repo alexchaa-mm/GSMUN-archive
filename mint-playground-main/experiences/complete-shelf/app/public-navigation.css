@@ -1,0 +1,31 @@
+/* Layers: shelf UI 16; existing header 20; native dialog top layer. */
+.archive-menu-trigger{display:grid;align-content:center;gap:5px;width:44px;height:44px;padding:12px;background:transparent;color:#ffa800;cursor:pointer;margin-top:clamp(33px,3.4vw,52px)}
+.archive-menu-trigger span{display:block;height:1px;width:20px;background:currentColor}
+.archive-menu-trigger:hover{color:#fff5dd}
+.archive-drawer{position:fixed;inset:0 0 0 auto;box-sizing:border-box;width:min(420px,100%);height:100dvh;max-height:100dvh;max-width:100vw;margin:0;padding:clamp(24px,4vw,48px);border:0;background:#062718;color:#f8f3e7;font-family:var(--sans);overflow-y:auto;transition:opacity 220ms ease,transform 220ms ease;opacity:1;transform:translateX(0)}
+.archive-drawer::backdrop{background:rgb(0 16 8 / .6)}
+.archive-drawer.is-closing{opacity:0;transform:translateX(24px)}
+@starting-style{.archive-drawer[open]{opacity:0;transform:translateX(24px)}}
+.archive-drawer__heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:42px}
+.archive-drawer__heading h2{font-size:17px;font-weight:500;margin:0}
+.archive-drawer__heading button{width:44px;height:44px;background:none;color:#ffa800;cursor:pointer;font-size:30px}
+.archive-drawer section{margin:0 0 30px}
+.archive-drawer h3{font-size:10px;font-weight:500;color:#ffa800;text-transform:uppercase;letter-spacing:.14em;margin:0 0 12px}
+.archive-drawer ul{padding:0;margin:0;list-style:none}
+.archive-drawer a{display:flex;align-items:center;min-height:44px;padding:7px 0;color:inherit;text-decoration:none;font-size:clamp(16px,2vw,20px);line-height:1.4;overflow-wrap:anywhere}
+.archive-drawer a:hover{color:#ffa800}
+.archive-drawer a:focus-visible,.archive-drawer button:focus-visible,.archive-menu-trigger:focus-visible{outline:1px solid #ffa800;outline-offset:4px}
+.site-header{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);grid-template-areas:"identity guidance actions"}
+.site-header .archive-identity{grid-area:identity}
+.site-header .header-actions{grid-area:actions;justify-self:end}
+/* An actual header cell, not a viewport-height overlay on the book canvas.
+   The canvas remains exactly full-size; existing engine geometry is untouched. */
+.shelf-guidance-region{grid-area:guidance;align-self:start;justify-self:center;min-width:0;pointer-events:none;transform:translateY(-100%)}
+.shelf-intro{margin:0;width:max-content;max-width:calc(100vw - 48px);text-align:center;color:#fff;font:800 clamp(12px,1.1vw,15px)/1.4 var(--sans);letter-spacing:.015em;pointer-events:none;transition:opacity 120ms linear}
+.is-focused .shelf-intro{visibility:hidden!important}
+@media(max-width:780px){.archive-menu-trigger{margin-top:14px}.shelf-intro{font-size:12px}.archive-drawer{padding-top:max(24px,env(safe-area-inset-top));padding-bottom:max(24px,env(safe-area-inset-bottom))}}
+@media(max-width:760px){.site-header{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"identity actions" "guidance guidance"}.shelf-guidance-region{width:100%;display:grid;justify-items:center;transform:none}}
+/* Compact/landscape screens use the header's existing top padding as a
+   separate introduction band rather than stealing any space from the scene. */
+@media(max-height:600px){.shelf-guidance-region{position:absolute;grid-area:auto;width:auto;inset:0 24px auto;display:grid;justify-items:center;transform:none}}
+@media(prefers-reduced-motion:reduce){.archive-drawer,.shelf-intro{transition:none}.archive-drawer[open]{transform:none}}

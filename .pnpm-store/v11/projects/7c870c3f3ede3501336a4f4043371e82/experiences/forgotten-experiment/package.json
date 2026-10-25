@@ -1,0 +1,22 @@
+{
+  "name": "@mint/playground-experience-forgotten-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base /_experiences/forgotten-experiment/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.178.1",
+    "vite": "7.3.6"
+  }
+}

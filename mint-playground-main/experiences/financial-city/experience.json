@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "order": 250,
+  "slug": "financial-city",
+  "title": "Financial City",
+  "description": "Shape a private monthly budget and watch traffic, civic services, construction pressure, and forty city blocks respond in a living miniature metropolis.",
+  "status": "published",
+  "publishedAt": "2026-07-27",
+  "tags": [
+    "Next.js",
+    "Three.js",
+    "Personal Finance",
+    "Simulation",
+    "Data Visualization"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a local-first budget planner whose miniature city reacts to financial health.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "A 25-piece Metropolitan Ledger city kit with civic, finance, resilience, and pressure districts."
+      },
+      {
+        "kind": "asset-pack",
+        "brief": "A 19-piece traffic and infill kit with vehicles and three building-health tiers."
+      }
+    ],
+    "experience": [
+      "Edit a monthly budget in-browser and derive private health metrics.",
+      "Drive traffic, building tiers, public services, and construction from those metrics."
+    ],
+    "visualDirection": "Daylight architectural miniature in stone, glass, copper, and teal."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/financial-city/social-card.webp",
+    "alt": "A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture."
+  },
+  "social": {
+    "title": "Financial City",
+    "description": "Shape a private budget and watch a miniature metropolis respond.",
+    "image": {
+      "src": "/experience-assets/financial-city/social-card.webp",
+      "alt": "A daytime miniature financial city with active streets, civic buildings, parks, and dense Metropolitan Ledger architecture.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#2D9C95"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/financial-city/index.html",
+    "title": "Financial City"
+  }
+}

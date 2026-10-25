@@ -1,0 +1,3894 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder_path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    },
+    "alpine-props": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7ddykjr0krbty9d9d9w8xsnx8b2wjd"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:0:ks7eamfgpb4jvqp24g82pnpsjs8b2zrk": {
+          "artifactId": "glb/tall-snow-conifer-normalized-2227996ef21a6456.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tall-snow-conifer-js8b2zrk.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1149268,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/tall-snow-conifer-normalized-2227996ef21a6456.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:1:ks7bwj62rdvp7xzbp9s7fbdv118b2fyh": {
+          "artifactId": "glb/medium-snow-conifer-normalized-7748970b1efd2ce7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "medium-snow-conifer-118b2fyh.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1009156,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/medium-snow-conifer-normalized-7748970b1efd2ce7.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:10:ks7atg3wbb0qbv7y2ax5qm5wgn8b220n": {
+          "artifactId": "glb/lift-pulley-assembly-normalized-4a4af41e4e74ac00.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "lift-pulley-assembly-gn8b220n.glb",
+          "loaderHint": "gltf",
+          "byteSize": 753792,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/lift-pulley-assembly-normalized-4a4af41e4e74ac00.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:11:ks74vc4g6btf5hqvgg6j8bc1718b3vka": {
+          "artifactId": "glb/red-roof-lift-station-normalized-e3b08fc271ec7776.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "red-roof-lift-station-718b3vka.glb",
+          "loaderHint": "gltf",
+          "byteSize": 861176,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-roof-lift-station-normalized-e3b08fc271ec7776.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:12:ks7evjezsyms1m4fjaettxz2en8b34td": {
+          "artifactId": "glb/straight-grind-rail-normalized-90499e194cce3dff.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "straight-grind-rail-en8b34td.glb",
+          "loaderHint": "gltf",
+          "byteSize": 385644,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/straight-grind-rail-normalized-90499e194cce3dff.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:13:ks73mc2enrayc1ntn8vwyvsq1n8b2wd2": {
+          "artifactId": "glb/low-box-rail-normalized-8465820c003f7ebe.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "low-box-rail-1n8b2wd2.glb",
+          "loaderHint": "gltf",
+          "byteSize": 489240,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/low-box-rail-normalized-8465820c003f7ebe.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:14:ks735jm1wb8pksqmf1mnnwzn2h8b35w2": {
+          "artifactId": "glb/kinked-grind-rail-normalized-b10bda27ca8553c8.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "kinked-grind-rail-2h8b35w2.glb",
+          "loaderHint": "gltf",
+          "byteSize": 392212,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/kinked-grind-rail-normalized-b10bda27ca8553c8.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:15:ks7bhqebynxtvgtn3zb21v42kh8b38bh": {
+          "artifactId": "glb/blank-warning-sign-normalized-de3ea55de9c63744.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "blank-warning-sign-kh8b38bh.glb",
+          "loaderHint": "gltf",
+          "byteSize": 487676,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/blank-warning-sign-normalized-de3ea55de9c63744.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:16:ks7bxa45evxrpcj9jhbxccewws8b20zn": {
+          "artifactId": "glb/snow-fence-normalized-c10ec163f687e936.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "snow-fence-ws8b20zn.glb",
+          "loaderHint": "gltf",
+          "byteSize": 626388,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/snow-fence-normalized-c10ec163f687e936.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:17:ks76yhhshg58rajga7rvw13j6s8b28z0": {
+          "artifactId": "glb/route-marker-pole-normalized-14a400a8d9cb113c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "route-marker-pole-6s8b28z0.glb",
+          "loaderHint": "gltf",
+          "byteSize": 478072,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/route-marker-pole-normalized-14a400a8d9cb113c.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:2:ks77s18anc7xhbegp2snvnvw6x8b2mea": {
+          "artifactId": "glb/young-snow-conifer-normalized-6071b77be993e961.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "young-snow-conifer-6x8b2mea.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1040860,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/young-snow-conifer-normalized-6071b77be993e961.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:3:ks79zr07jq6w2t9apcyejw7cbd8b3e5w": {
+          "artifactId": "glb/conifer-cluster-normalized-e9712dd5ef7d0c15.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "conifer-cluster-bd8b3e5w.glb",
+          "loaderHint": "gltf",
+          "byteSize": 958936,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/conifer-cluster-normalized-e9712dd5ef7d0c15.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:4:ks75qe8f8w3k355ns1dcdgjkex8b2k7r": {
+          "artifactId": "glb/rounded-alpine-boulder-normalized-8b21c9a34af9fe08.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rounded-alpine-boulder-ex8b2k7r.glb",
+          "loaderHint": "gltf",
+          "byteSize": 521216,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/rounded-alpine-boulder-normalized-8b21c9a34af9fe08.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:5:ks78ap7ecf477ewtg24w8e8jvx8b38m0": {
+          "artifactId": "glb/fractured-alpine-boulder-normalized-f67ac10016a8dd38.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "fractured-alpine-boulder-vx8b38m0.glb",
+          "loaderHint": "gltf",
+          "byteSize": 553044,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/fractured-alpine-boulder-normalized-f67ac10016a8dd38.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:6:ks764c96kdmgyvhn7k8ck5a7cs8b2wy4": {
+          "artifactId": "glb/cliff-outcrop-normalized-b2c1f145471f2e06.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cliff-outcrop-cs8b2wy4.glb",
+          "loaderHint": "gltf",
+          "byteSize": 783660,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cliff-outcrop-normalized-b2c1f145471f2e06.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:7:ks74a1khg4g7rtxjd7ja1mjbv98b3htw": {
+          "artifactId": "glb/rock-spire-normalized-3fbb11f824c1f1b2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rock-spire-v98b3htw.glb",
+          "loaderHint": "gltf",
+          "byteSize": 659340,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/rock-spire-normalized-3fbb11f824c1f1b2.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:8:ks7fe363s89vx8f87k8y370ymn8b293v": {
+          "artifactId": "glb/ski-lift-tower-normalized-810133185e3d049c.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ski-lift-tower-mn8b293v.glb",
+          "loaderHint": "gltf",
+          "byteSize": 761016,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/ski-lift-tower-normalized-810133185e3d049c.glb"
+        },
+        "asset_pack_item_glb:vd767anamky5zsjtstkv5sfyvx8b22fh:9:ks75p0k9t3dp343fywn45g27t98b3yk9": {
+          "artifactId": "glb/two-seat-lift-chair-normalized-b8e58b5151245946.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "two-seat-lift-chair-t98b3yk9.glb",
+          "loaderHint": "gltf",
+          "byteSize": 768828,
+          "extensionsUsed": [],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/two-seat-lift-chair-normalized-b8e58b5151245946.glb"
+        }
+      }
+    },
+    "alpine-sky": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7ecs4d84xk3f40rb4m2mqrnh8b3fnj"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn7ecs4d84xk3f40rb4m2mqrnh8b3fnj/breakline-alpine-sky-120cff-7bf6c787a3e4e06e.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Alpine-Sky-120cff.png",
+          "loaderHint": "image",
+          "byteSize": 1388405,
+          "width": 1584,
+          "height": 672,
+          "aspectRatio": 2.357142857142857,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7ecs4d84xk3f40rb4m2mqrnh8b3fnj/breakline-alpine-sky-120cff-7bf6c787a3e4e06e.png"
+        }
+      }
+    },
+    "ambience-wind": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd743ftag5gy6m3gmzjybpgjqs8b296s"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd743ftag5gy6m3gmzjybpgjqs8b296s/breakline-mountain-wind-ef7c37-3ad24feb27b53d42.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Mountain-Wind-ef7c37.mp3",
+          "loaderHint": "audio",
+          "byteSize": 734731,
+          "durationSeconds": 30,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd743ftag5gy6m3gmzjybpgjqs8b296s/breakline-mountain-wind-ef7c37-3ad24feb27b53d42.mp3"
+        }
+      }
+    },
+    "hud-panel-large": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn77f4x1phgp875hwbfd0emn658b3faw"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn77f4x1phgp875hwbfd0emn658b3faw/breakline-large-hud-panel-714598-db9bf0cee418bc99.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Large-HUD-Panel-714598.png",
+          "loaderHint": "image",
+          "byteSize": 1658398,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn77f4x1phgp875hwbfd0emn658b3faw/breakline-large-hud-panel-714598-db9bf0cee418bc99.png"
+        }
+      }
+    },
+    "hud-panel-small": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7fr88b4187tjpcgyz8r8797x8b307m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn7fr88b4187tjpcgyz8r8797x8b307m/breakline-small-hud-panel-clean-40e3c8-f2ec840a89155773.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Small-HUD-Panel-Clean-40e3c8.png",
+          "loaderHint": "image",
+          "byteSize": 1246501,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7fr88b4187tjpcgyz8r8797x8b307m/breakline-small-hud-panel-clean-40e3c8-f2ec840a89155773.png"
+        }
+      }
+    },
+    "loop-carve": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7adjgaswczgaq9x6y9pbebwx8b3hp3"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7adjgaswczgaq9x6y9pbebwx8b3hp3/breakline-board-carve-loop-818310-3c6494d4551801fe.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Board-Carve-Loop-818310.mp3",
+          "loaderHint": "audio",
+          "byteSize": 129193,
+          "durationSeconds": 8,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7adjgaswczgaq9x6y9pbebwx8b3hp3/breakline-board-carve-loop-818310-3c6494d4551801fe.mp3"
+        }
+      }
+    },
+    "loop-grind": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd76pgq6eyjtqqt1waz1vagv8n8b2yy3"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd76pgq6eyjtqqt1waz1vagv8n8b2yy3/breakline-grind-loop-e5a0d5-29527d64db6a4635.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Grind-Loop-e5a0d5.mp3",
+          "loaderHint": "audio",
+          "byteSize": 129193,
+          "durationSeconds": 8,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd76pgq6eyjtqqt1waz1vagv8n8b2yy3/breakline-grind-loop-e5a0d5-29527d64db6a4635.mp3"
+        }
+      }
+    },
+    "material-bark": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w179g8vq3dex48ng8mj1pdv1758b3mmv"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-basecolor-8b184f-7a2fa7b46756cdea.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Tree-Bark-basecolor-8b184f.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1111989,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-basecolor-8b184f-7a2fa7b46756cdea.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-normal-5c3aa7-8390ac667182fe9b.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Tree-Bark-normal-5c3aa7.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1281379,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-normal-5c3aa7-8390ac667182fe9b.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-roughness-a95f3d-aead41fa85164705.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Tree-Bark-roughness-a95f3d.png",
+          "loaderHint": "materialMap",
+          "byteSize": 408786,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-roughness-a95f3d-aead41fa85164705.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-metalness-0a7778-f0d234f092d6e201.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Tree-Bark-metalness-0a7778.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-metalness-0a7778-f0d234f092d6e201.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-height-76d996-787ff48235fc3e49.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Tree-Bark-height-76d996.png",
+          "loaderHint": "materialMap",
+          "byteSize": 364309,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179g8vq3dex48ng8mj1pdv1758b3mmv/tree-bark-height-76d996-787ff48235fc3e49.png"
+        }
+      }
+    },
+    "material-cable-metal": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w17b5jaxvn282xtfq56g06g6rn8b2pk9"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-basecolor-4c2587-3bd85637132c53cd.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Cable-Metal-basecolor-4c2587.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1495212,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-basecolor-4c2587-3bd85637132c53cd.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-normal-afbbbb-ba371cbd5e11385d.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Cable-Metal-normal-afbbbb.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1892423,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-normal-afbbbb-ba371cbd5e11385d.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-roughness-5ad25c-cdbc402538d04d5d.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Cable-Metal-roughness-5ad25c.png",
+          "loaderHint": "materialMap",
+          "byteSize": 601914,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-roughness-5ad25c-cdbc402538d04d5d.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-metalness-e2193c-426288f4238fef39.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Cable-Metal-metalness-e2193c.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-metalness-e2193c-426288f4238fef39.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-height-b6dea0-c0c003dba54cf650.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Cable-Metal-height-b6dea0.png",
+          "loaderHint": "materialMap",
+          "byteSize": 538411,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17b5jaxvn282xtfq56g06g6rn8b2pk9/cable-metal-height-b6dea0-c0c003dba54cf650.png"
+        }
+      }
+    },
+    "material-evergreen": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w179hd5wt65m13t3n8dtjjs8as8b3q41"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-basecolor-a26ec0-a443a11d6f9dc526.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Evergreen-Needles-basecolor-a26ec0.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1542067,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-basecolor-a26ec0-a443a11d6f9dc526.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-normal-5937ef-535dad96a2452ecf.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Evergreen-Needles-normal-5937ef.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1780424,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-normal-5937ef-535dad96a2452ecf.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-roughness-23a864-96bf78d39c03e258.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Evergreen-Needles-roughness-23a864.png",
+          "loaderHint": "materialMap",
+          "byteSize": 548854,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-roughness-23a864-96bf78d39c03e258.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-metalness-4d5215-e4562627fbdf8be2.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Evergreen-Needles-metalness-4d5215.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-metalness-4d5215-e4562627fbdf8be2.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-height-42ab38-64e2f91951315cc8.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Evergreen-Needles-height-42ab38.png",
+          "loaderHint": "materialMap",
+          "byteSize": 562372,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179hd5wt65m13t3n8dtjjs8as8b3q41/evergreen-needles-height-42ab38-64e2f91951315cc8.png"
+        }
+      }
+    },
+    "material-groomed": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w172mj465em81c7p5reatwkbwd8b3nth"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-basecolor-57bc02-a27fb8cd5725ff4a.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Groomed-Snow-basecolor-57bc02.png",
+          "loaderHint": "materialMap",
+          "byteSize": 887180,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-basecolor-57bc02-a27fb8cd5725ff4a.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-normal-d96b15-a88a8e4115b944c5.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Groomed-Snow-normal-d96b15.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1613629,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-normal-d96b15-a88a8e4115b944c5.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-roughness-4d9d35-6f4ca88008b63bb3.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Groomed-Snow-roughness-4d9d35.png",
+          "loaderHint": "materialMap",
+          "byteSize": 392562,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-roughness-4d9d35-6f4ca88008b63bb3.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-metalness-9afb68-359dc3cc1b3f31b5.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Groomed-Snow-metalness-9afb68.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-metalness-9afb68-359dc3cc1b3f31b5.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-height-cd5b60-da27834bf857af15.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Groomed-Snow-height-cd5b60.png",
+          "loaderHint": "materialMap",
+          "byteSize": 382000,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w172mj465em81c7p5reatwkbwd8b3nth/groomed-snow-height-cd5b60-da27834bf857af15.png"
+        }
+      }
+    },
+    "material-ice": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w178mg2ycvwm86rzrrahv7c80s8b2nv2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-basecolor-8dd19f-ba86011b8ba91e8c.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Arcade-Ice-basecolor-8dd19f.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1410542,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-basecolor-8dd19f-ba86011b8ba91e8c.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-normal-81a145-dcecab1a00a6dc65.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Arcade-Ice-normal-81a145.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1219896,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-normal-81a145-dcecab1a00a6dc65.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-roughness-797848-3542b1319de96b8f.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Arcade-Ice-roughness-797848.png",
+          "loaderHint": "materialMap",
+          "byteSize": 288915,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-roughness-797848-3542b1319de96b8f.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-metalness-247b45-2c0546be7cc0e560.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Arcade-Ice-metalness-247b45.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-metalness-247b45-2c0546be7cc0e560.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-height-8aced6-5a5fe8679020398e.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Arcade-Ice-height-8aced6.png",
+          "loaderHint": "materialMap",
+          "byteSize": 332490,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w178mg2ycvwm86rzrrahv7c80s8b2nv2/arcade-ice-height-8aced6-5a5fe8679020398e.png"
+        }
+      }
+    },
+    "material-jacket": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w179099zxz7a3qdq04mk0xfakx8b2vdr"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-basecolor-e0d5db-d582c9ccd3caddce.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Winter-Jacket-Fabric-basecolor-e0d5db.png",
+          "loaderHint": "materialMap",
+          "byteSize": 768674,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-basecolor-e0d5db-d582c9ccd3caddce.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-normal-92464e-44b6daefe0e9a7af.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Winter-Jacket-Fabric-normal-92464e.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1094750,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-normal-92464e-44b6daefe0e9a7af.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-roughness-95efcf-baa1f73400405cfd.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Winter-Jacket-Fabric-roughness-95efcf.png",
+          "loaderHint": "materialMap",
+          "byteSize": 315390,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-roughness-95efcf-baa1f73400405cfd.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-metalness-ce8871-84beda06d48bfb97.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Winter-Jacket-Fabric-metalness-ce8871.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-metalness-ce8871-84beda06d48bfb97.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-height-f5ebc3-9f52fdb6da46e69b.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Winter-Jacket-Fabric-height-f5ebc3.png",
+          "loaderHint": "materialMap",
+          "byteSize": 277491,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179099zxz7a3qdq04mk0xfakx8b2vdr/winter-jacket-fabric-height-f5ebc3-9f52fdb6da46e69b.png"
+        }
+      }
+    },
+    "material-lift-steel": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w179ff4z20jwksp7apdv71vxad8b3hhp"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-basecolor-b3e7a9-0846391694c3b67e.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Lift-Steel-basecolor-b3e7a9.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1192755,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-basecolor-b3e7a9-0846391694c3b67e.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-normal-5f1b4b-f56040d84f920763.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Lift-Steel-normal-5f1b4b.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1257513,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-normal-5f1b4b-f56040d84f920763.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-roughness-59e5e9-9bc7910626810c98.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Lift-Steel-roughness-59e5e9.png",
+          "loaderHint": "materialMap",
+          "byteSize": 365262,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-roughness-59e5e9-9bc7910626810c98.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-metalness-7ed5f5-5af0aaffd8ded04a.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Lift-Steel-metalness-7ed5f5.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-metalness-7ed5f5-5af0aaffd8ded04a.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-height-60a81c-55f818bc860d0805.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Lift-Steel-height-60a81c.png",
+          "loaderHint": "materialMap",
+          "byteSize": 264812,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w179ff4z20jwksp7apdv71vxad8b3hhp/lift-steel-height-60a81c-55f818bc860d0805.png"
+        }
+      }
+    },
+    "material-powder": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w176vqt2dt2s866nehxg2a13wn8b2max"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-basecolor-c7abc2-7a98a335c2359473.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Fresh-Powder-Snow-basecolor-c7abc2.png",
+          "loaderHint": "materialMap",
+          "byteSize": 991950,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-basecolor-c7abc2-7a98a335c2359473.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-normal-72604c-5f1b44112057f1ae.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Fresh-Powder-Snow-normal-72604c.png",
+          "loaderHint": "materialMap",
+          "byteSize": 1252104,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-normal-72604c-5f1b44112057f1ae.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-roughness-0950dc-58c1114d6d45365b.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Fresh-Powder-Snow-roughness-0950dc.png",
+          "loaderHint": "materialMap",
+          "byteSize": 344792,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-roughness-0950dc-58c1114d6d45365b.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-metalness-47e25d-bf418883b76f2dea.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Fresh-Powder-Snow-metalness-47e25d.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-metalness-47e25d-bf418883b76f2dea.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-height-9878c6-40f790e429936e61.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Fresh-Powder-Snow-height-9878c6.png",
+          "loaderHint": "materialMap",
+          "byteSize": 294299,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w176vqt2dt2s866nehxg2a13wn8b2max/fresh-powder-snow-height-9878c6-40f790e429936e61.png"
+        }
+      }
+    },
+    "material-rock": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w17ajtkg46qcpyycx9p86vgebs8b2hkv"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-basecolor-0ab6ca-6ffc8a8bfe1e50b0.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Alpine-Rock-basecolor-0ab6ca.png",
+          "loaderHint": "materialMap",
+          "byteSize": 790908,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-basecolor-0ab6ca-6ffc8a8bfe1e50b0.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-normal-69948b-a6f1eced3767d9fb.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Alpine-Rock-normal-69948b.png",
+          "loaderHint": "materialMap",
+          "byteSize": 731409,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-normal-69948b-a6f1eced3767d9fb.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-roughness-b542cd-82283d8945a278ff.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Alpine-Rock-roughness-b542cd.png",
+          "loaderHint": "materialMap",
+          "byteSize": 178117,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-roughness-b542cd-82283d8945a278ff.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-metalness-b785ab-df62ec4447df85f4.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Alpine-Rock-metalness-b785ab.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-metalness-b785ab-df62ec4447df85f4.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-height-85ca90-50fe688ee55a7f02.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Alpine-Rock-height-85ca90.png",
+          "loaderHint": "materialMap",
+          "byteSize": 260533,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17ajtkg46qcpyycx9p86vgebs8b2hkv/alpine-rock-height-85ca90-50fe688ee55a7f02.png"
+        }
+      }
+    },
+    "material-snowboard": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "material",
+        "assetId": "w17btf81aaqekfe5110hrbt0c58b3jgh"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "map_basecolor": {
+          "artifactId": "materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-basecolor-f399f4-26a7a929836b1845.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Snowboard-Laminate-basecolor-f399f4.png",
+          "loaderHint": "materialMap",
+          "byteSize": 661033,
+          "mapType": "basecolor",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-basecolor-f399f4-26a7a929836b1845.png"
+        },
+        "map_normal": {
+          "artifactId": "materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-normal-e46636-a4f22965d839555d.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Snowboard-Laminate-normal-e46636.png",
+          "loaderHint": "materialMap",
+          "byteSize": 630164,
+          "mapType": "normal",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-normal-e46636-a4f22965d839555d.png"
+        },
+        "map_roughness": {
+          "artifactId": "materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-roughness-0e6375-6ae98c980a356bb2.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Snowboard-Laminate-roughness-0e6375.png",
+          "loaderHint": "materialMap",
+          "byteSize": 155656,
+          "mapType": "roughness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-roughness-0e6375-6ae98c980a356bb2.png"
+        },
+        "map_metalness": {
+          "artifactId": "materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-metalness-1c0d7d-67bc2e3c4112d634.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Snowboard-Laminate-metalness-1c0d7d.png",
+          "loaderHint": "materialMap",
+          "byteSize": 14131,
+          "mapType": "metalness",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-metalness-1c0d7d-67bc2e3c4112d634.png"
+        },
+        "map_height": {
+          "artifactId": "materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-height-bd3850-310e4925a3864210.png",
+          "role": "material_map",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Snowboard-Laminate-height-bd3850.png",
+          "loaderHint": "materialMap",
+          "byteSize": 142924,
+          "mapType": "height",
+          "runtimeUrl": "https://cdn.mint.gg/materials/w17btf81aaqekfe5110hrbt0c58b3jgh/snowboard-laminate-height-bd3850-310e4925a3864210.png"
+        }
+      }
+    },
+    "music-gameplay": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd78ecdkfhaf4bksb9w1m0v9nh8b24hr"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd78ecdkfhaf4bksb9w1m0v9nh8b24hr/breakline-gameplay-breakbeat-17939b-1a9a41b19ab140d9.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Gameplay-Breakbeat-17939b.mp3",
+          "loaderHint": "audio",
+          "byteSize": 1454457,
+          "durationSeconds": 60,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd78ecdkfhaf4bksb9w1m0v9nh8b24hr/breakline-gameplay-breakbeat-17939b-1a9a41b19ab140d9.mp3"
+        }
+      }
+    },
+    "particle-powder": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn709my84dqa2n341b1p96vtxn8b3y0f"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn709my84dqa2n341b1p96vtxn8b3y0f/breakline-powder-atlas-2e1837-2beabb62893d3548.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Powder-Atlas-2e1837.png",
+          "loaderHint": "image",
+          "byteSize": 1265497,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn709my84dqa2n341b1p96vtxn8b3y0f/breakline-powder-atlas-2e1837-2beabb62893d3548.png"
+        }
+      }
+    },
+    "particle-snowflake": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn70dxranb57nrqrbnrfhx66mh8b2bg2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn70dxranb57nrqrbnrfhx66mh8b2bg2/breakline-snowflake-atlas-d2e97e-11412afc2c274e15.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Snowflake-Atlas-d2e97e.png",
+          "loaderHint": "image",
+          "byteSize": 1571239,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn70dxranb57nrqrbnrfhx66mh8b2bg2/breakline-snowflake-atlas-d2e97e-11412afc2c274e15.png"
+        }
+      }
+    },
+    "particle-spark": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn78vdh7gs631zwct4jf8e633s8b2def"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn78vdh7gs631zwct4jf8e633s8b2def/breakline-spark-atlas-df567f-d0dedfb214ab02a4.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Spark-Atlas-df567f.png",
+          "loaderHint": "image",
+          "byteSize": 1490610,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn78vdh7gs631zwct4jf8e633s8b2def/breakline-spark-atlas-df567f-d0dedfb214ab02a4.png"
+        }
+      }
+    },
+    "polar-bear": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7601ms3001xn12q4wv5hkkvx8b3n0s"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/frost-paw-pursuer-d9d9ad98cc2ac945.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "frost-paw-pursuer-vx8b3n0s-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 655924,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/frost-paw-pursuer-d9d9ad98cc2ac945.glb"
+        }
+      }
+    },
+    "portrait-bear": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn77266h70krg8rcef1he78k6h8b2qad"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn77266h70krg8rcef1he78k6h8b2qad/breakline-polar-bear-portrait-corrected-a3b41f-3d65a57ba8313a83.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Polar-Bear-Portrait-Corrected-a3b41f.png",
+          "loaderHint": "image",
+          "byteSize": 1400067,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn77266h70krg8rcef1he78k6h8b2qad/breakline-polar-bear-portrait-corrected-a3b41f-3d65a57ba8313a83.png"
+        }
+      }
+    },
+    "portrait-yeti": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn7as9gjdf58f4c7q2w13rznqs8b32v7"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn7as9gjdf58f4c7q2w13rznqs8b32v7/breakline-yeti-portrait-corrected-1e0200-dd34cd225886dd80.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Yeti-Portrait-Corrected-1e0200.png",
+          "loaderHint": "image",
+          "byteSize": 1510537,
+          "width": 1024,
+          "height": 1024,
+          "aspectRatio": 1,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn7as9gjdf58f4c7q2w13rznqs8b32v7/breakline-yeti-portrait-corrected-1e0200-dd34cd225886dd80.png"
+        }
+      }
+    },
+    "prop-cliff-outcrop": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks764c96kdmgyvhn7k8ck5a7cs8b2wy4"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/cliff-outcrop-8096909b4086ab92.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cliff-outcrop-cs8b2wy4-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 831428,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cliff-outcrop-8096909b4086ab92.glb"
+        }
+      }
+    },
+    "prop-conifer-cluster": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks79zr07jq6w2t9apcyejw7cbd8b3e5w"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/conifer-cluster-2435122691b34e8b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "conifer-cluster-bd8b3e5w-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1142120,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/conifer-cluster-2435122691b34e8b.glb"
+        }
+      }
+    },
+    "prop-fractured-boulder": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks78ap7ecf477ewtg24w8e8jvx8b38m0"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/fractured-alpine-boulder-4e92bdd6253add63.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "fractured-alpine-boulder-vx8b38m0-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 526748,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/fractured-alpine-boulder-4e92bdd6253add63.glb"
+        }
+      }
+    },
+    "prop-kinked-rail": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks735jm1wb8pksqmf1mnnwzn2h8b35w2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/kinked-grind-rail-60f51e92df9db0a3.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "kinked-grind-rail-2h8b35w2-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 290468,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/kinked-grind-rail-60f51e92df9db0a3.glb"
+        }
+      }
+    },
+    "prop-lift-chair": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks75p0k9t3dp343fywn45g27t98b3yk9"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/two-seat-lift-chair-6b7bd8066899849b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "two-seat-lift-chair-t98b3yk9-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 735780,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/two-seat-lift-chair-6b7bd8066899849b.glb"
+        }
+      }
+    },
+    "prop-lift-pulley": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7atg3wbb0qbv7y2ax5qm5wgn8b220n"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/lift-pulley-assembly-506219453e8d1ea9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "lift-pulley-assembly-gn8b220n-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 795200,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/lift-pulley-assembly-506219453e8d1ea9.glb"
+        }
+      }
+    },
+    "prop-lift-station": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks74vc4g6btf5hqvgg6j8bc1718b3vka"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/red-roof-lift-station-744494f8cc557db7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "red-roof-lift-station-718b3vka-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 851660,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-roof-lift-station-744494f8cc557db7.glb"
+        }
+      }
+    },
+    "prop-lift-tower": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7fe363s89vx8f87k8y370ymn8b293v"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/ski-lift-tower-fc06146ed266fc08.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "ski-lift-tower-mn8b293v-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 846512,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/ski-lift-tower-fc06146ed266fc08.glb"
+        }
+      }
+    },
+    "prop-low-box-rail": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks73mc2enrayc1ntn8vwyvsq1n8b2wd2"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/low-box-rail-46ce03619c997c6d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "low-box-rail-1n8b2wd2-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 326936,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/low-box-rail-46ce03619c997c6d.glb"
+        }
+      }
+    },
+    "prop-medium-conifer": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bwj62rdvp7xzbp9s7fbdv118b2fyh"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/medium-snow-conifer-ac9fe3c8ab278a36.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "medium-snow-conifer-118b2fyh-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1237928,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/medium-snow-conifer-ac9fe3c8ab278a36.glb"
+        }
+      }
+    },
+    "prop-rock-spire": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks74a1khg4g7rtxjd7ja1mjbv98b3htw"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/rock-spire-b39d1fd4ea83978b.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rock-spire-v98b3htw-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 663772,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/rock-spire-b39d1fd4ea83978b.glb"
+        }
+      }
+    },
+    "prop-rounded-boulder": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks75qe8f8w3k355ns1dcdgjkex8b2k7r"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/rounded-alpine-boulder-1980ac6eb86dba61.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "rounded-alpine-boulder-ex8b2k7r-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 411776,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/rounded-alpine-boulder-1980ac6eb86dba61.glb"
+        }
+      }
+    },
+    "prop-route-marker": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76yhhshg58rajga7rvw13j6s8b28z0"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/route-marker-pole-1e0af4605bfd3ff0.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "route-marker-pole-6s8b28z0-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 387016,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/route-marker-pole-1e0af4605bfd3ff0.glb"
+        }
+      }
+    },
+    "prop-snow-fence": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bxa45evxrpcj9jhbxccewws8b20zn"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/snow-fence-e71713637ecb3ff2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "snow-fence-ws8b20zn-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 700604,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/snow-fence-e71713637ecb3ff2.glb"
+        }
+      }
+    },
+    "prop-straight-rail": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7evjezsyms1m4fjaettxz2en8b34td"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/straight-grind-rail-fbaa3fbc3900af0d.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "straight-grind-rail-en8b34td-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 315880,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/straight-grind-rail-fbaa3fbc3900af0d.glb"
+        }
+      }
+    },
+    "prop-tall-conifer": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7eamfgpb4jvqp24g82pnpsjs8b2zrk"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/tall-snow-conifer-0e5acbe73a9c59f7.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "tall-snow-conifer-js8b2zrk-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1451616,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/tall-snow-conifer-0e5acbe73a9c59f7.glb"
+        }
+      }
+    },
+    "prop-warning-sign": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7bhqebynxtvgtn3zb21v42kh8b38bh"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/blank-warning-sign-80056ee39a7322c9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "blank-warning-sign-kh8b38bh-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 443616,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/blank-warning-sign-80056ee39a7322c9.glb"
+        }
+      }
+    },
+    "prop-young-conifer": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks77s18anc7xhbegp2snvnvw6x8b2mea"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/young-snow-conifer-b1495a64019dd543.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "young-snow-conifer-6x8b2mea-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1339528,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/young-snow-conifer-b1495a64019dd543.glb"
+        }
+      }
+    },
+    "rider": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7f411rdjpygapcg8gyxtafj18b2tvb"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/cyan-goggle-shredder-58e010b419dae7d9.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cyan-goggle-shredder-j18b2tvb-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1152068,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cyan-goggle-shredder-58e010b419dae7d9.glb"
+        }
+      }
+    },
+    "rider-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57bf33rdhf573gy5mk0makmm58b2m67"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged_character_glb": {
+          "artifactId": "glb/cyan-goggle-shredder-m58b2m67-rigged-glb-a40f92681705a79c.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cyan-goggle-shredder-m58b2m67-rigged.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4353064,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cyan-goggle-shredder-m58b2m67-rigged-glb-a40f92681705a79c.glb"
+        },
+        "clip:w97137vxyk4ymptpsm180dzyc98b375k:animation_glb": {
+          "artifactId": "glb/idle-c98b375k-glb-ce6c3221d6438631.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "idle-c98b375k.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4402004,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/idle-c98b375k-glb-ce6c3221d6438631.glb"
+        },
+        "clip:w9743vckn9pze9hf04mrjfawcn8b21gb:animation_glb": {
+          "artifactId": "glb/cautious-crouch-walk-left-cn8b21gb-glb-4f6e6bb659aa96e8.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cautious-crouch-walk-left-cn8b21gb.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4366864,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cautious-crouch-walk-left-cn8b21gb-glb-4f6e6bb659aa96e8.glb"
+        },
+        "clip:w971egjqpy8dc7et8b1qh51fen8b3ang:animation_glb": {
+          "artifactId": "glb/cautious-crouch-walk-right-en8b3ang-glb-3a5c545e9cfb1d6e.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "cautious-crouch-walk-right-en8b3ang.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4369152,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/cautious-crouch-walk-right-en8b3ang-glb-3a5c545e9cfb1d6e.glb"
+        },
+        "clip:w979jbpvyf1ckc8krp2dg9z5998b332f:animation_glb": {
+          "artifactId": "glb/regular-jump-998b332f-glb-454c59039e9c4b51.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "regular-jump-998b332f.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4376776,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/regular-jump-998b332f-glb-454c59039e9c4b51.glb"
+        },
+        "clip:w972q7m5ebnfxq9j83x9x2x6ns8b37we:animation_glb": {
+          "artifactId": "glb/backflip-jump-ns8b37we-glb-e6b6b931eaa7d4a0.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "backflip-jump-ns8b37we.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4403220,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/backflip-jump-ns8b37we-glb-e6b6b931eaa7d4a0.glb"
+        },
+        "clip:w97ammmd2zj54bsze2kzhw2dr58b30qx:animation_glb": {
+          "artifactId": "glb/dive-down-and-land-r58b30qx-glb-aa63f63f818c0887.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "dive-down-and-land-r58b30qx.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4384660,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/dive-down-and-land-r58b30qx-glb-aa63f63f818c0887.glb"
+        },
+        "clip:w97cat6xszcetmh4ty3th31scn8b2xak:animation_glb": {
+          "artifactId": "glb/climb-attempt-and-fall-4-cn8b2xak-glb-d5e7a64902c73d5e.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "climb-attempt-and-fall-4-cn8b2xak.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4364524,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/climb-attempt-and-fall-4-cn8b2xak-glb-d5e7a64902c73d5e.glb"
+        },
+        "clip:w97466vz4ctztkexvmrh6d2vd58b39jz:animation_glb": {
+          "artifactId": "glb/victory-cheer-d58b39jz-glb-865d9a8b89c66db2.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "victory-cheer-d58b39jz.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4472712,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/victory-cheer-d58b39jz-glb-865d9a8b89c66db2.glb"
+        }
+      }
+    },
+    "snow-park-jumps": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7fpd77q8p714hj43xfg43gdx8b4nch"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "asset_pack_item_glb:vd7b49de2w491x6zymc8nrp7qs8b4c0v:0:ks7am7z3txntdv47jngd58c5es8b4p2e": {
+          "artifactId": "glb/beginner-kicker-normalized-064a5c0c11460c31.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "beginner-kicker-es8b4p2e.glb",
+          "loaderHint": "gltf",
+          "byteSize": 665948,
+          "runtimeUrl": "https://cdn.mint.gg/glb/beginner-kicker-normalized-064a5c0c11460c31.glb"
+        },
+        "asset_pack_item_glb:vd7b49de2w491x6zymc8nrp7qs8b4c0v:1:ks7ery62kas88j8amz0dhmsn5x8b5b8j": {
+          "artifactId": "glb/medium-tabletop-normalized-94642b31a5885308.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "medium-tabletop-5x8b5b8j.glb",
+          "loaderHint": "gltf",
+          "byteSize": 658420,
+          "runtimeUrl": "https://cdn.mint.gg/glb/medium-tabletop-normalized-94642b31a5885308.glb"
+        },
+        "asset_pack_item_glb:vd7b49de2w491x6zymc8nrp7qs8b4c0v:2:ks71fqfzbz3h8xqw1t0zmjy74x8b4kt7": {
+          "artifactId": "glb/hip-jump-normalized-32cd3ca38a457c10.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hip-jump-4x8b4kt7.glb",
+          "loaderHint": "gltf",
+          "byteSize": 854112,
+          "runtimeUrl": "https://cdn.mint.gg/glb/hip-jump-normalized-32cd3ca38a457c10.glb"
+        },
+        "asset_pack_item_glb:vd7b49de2w491x6zymc8nrp7qs8b4c0v:3:ks77wcf0ybaz1wf5s6g7z1wakd8b57q6": {
+          "artifactId": "glb/large-step-up-normalized-2f9d5a86d38d6fcc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "large-step-up-kd8b57q6.glb",
+          "loaderHint": "gltf",
+          "byteSize": 862060,
+          "runtimeUrl": "https://cdn.mint.gg/glb/large-step-up-normalized-2f9d5a86d38d6fcc.glb"
+        },
+        "asset_pack_item_glb:vd7b49de2w491x6zymc8nrp7qs8b4c0v:4:ks73275b9zyf8bpj5g87t7vxnh8b49kr": {
+          "artifactId": "glb/landing-berm-normalized-be1e828c9cf59426.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "landing-berm-nh8b49kr.glb",
+          "loaderHint": "gltf",
+          "byteSize": 616752,
+          "runtimeUrl": "https://cdn.mint.gg/glb/landing-berm-normalized-be1e828c9cf59426.glb"
+        }
+      }
+    },
+    "rider-tricks": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w5743ymwbf8zex1actjjj6kb8d8b5h9t"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "clip:w9772tq1pe2frfh00660z2znm18b4et0:animation_glb": {
+          "artifactId": "glb/360-power-spin-jump-m18b4et0-glb-a906fc966f5ea2d6.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "360-power-spin-jump-m18b4et0.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4391292,
+          "runtimeUrl": "https://cdn.mint.gg/glb/360-power-spin-jump-m18b4et0-glb-a906fc966f5ea2d6.glb"
+        },
+        "clip:w97bqsmtnwztxqm50xqhq008p98b4dsx:animation_glb": {
+          "artifactId": "glb/stand-on-pole-and-balance-p98b4dsx-glb-dd3635cc40a28411.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "stand-on-pole-and-balance-p98b4dsx.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4376508,
+          "runtimeUrl": "https://cdn.mint.gg/glb/stand-on-pole-and-balance-p98b4dsx-glb-dd3635cc40a28411.glb"
+        },
+        "clip:w97afnm4g7ct1hc3n0w25cr1e98b57f9:animation_glb": {
+          "artifactId": "glb/squat-stance-e98b57f9-glb-7194dc472543b7da.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "squat-stance-e98b57f9.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4411348,
+          "runtimeUrl": "https://cdn.mint.gg/glb/squat-stance-e98b57f9-glb-7194dc472543b7da.glb"
+        }
+      }
+    },
+    "sfx-bear-growl": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7bsejb9ezwxh3hcdvmndps0s8b3g8w"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7bsejb9ezwxh3hcdvmndps0s8b3g8w/breakline-polar-bear-growl-8c03b5-53416d594e386b3f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Polar-Bear-Growl-8c03b5.mp3",
+          "loaderHint": "audio",
+          "byteSize": 48945,
+          "durationSeconds": 3,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7bsejb9ezwxh3hcdvmndps0s8b3g8w/breakline-polar-bear-growl-8c03b5-53416d594e386b3f.mp3"
+        }
+      }
+    },
+    "sfx-boost": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd7aeg8m2rcej1sbbb3y9tjw4x8b3wbp"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd7aeg8m2rcej1sbbb3y9tjw4x8b3wbp/breakline-boost-activation-187d86-1a5ff6b7100ced1d.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Boost-Activation-187d86.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd7aeg8m2rcej1sbbb3y9tjw4x8b3wbp/breakline-boost-activation-187d86-1a5ff6b7100ced1d.mp3"
+        }
+      }
+    },
+    "sfx-clean-landing": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd70r2ep0t6mnzz9cxx5rc6wqh8b3vw9"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd70r2ep0t6mnzz9cxx5rc6wqh8b3vw9/breakline-clean-landing-062a53-75de2d39e455bbde.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Clean-Landing-062a53.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd70r2ep0t6mnzz9cxx5rc6wqh8b3vw9/breakline-clean-landing-062a53-75de2d39e455bbde.mp3"
+        }
+      }
+    },
+    "sfx-combo": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd75b0jgvaze3y39j8ywk0m9gn8b2rw7"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd75b0jgvaze3y39j8ywk0m9gn8b2rw7/breakline-combo-confirm-34d211-b37b1474536c8043.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Combo-Confirm-34d211.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd75b0jgvaze3y39j8ywk0m9gn8b2rw7/breakline-combo-confirm-34d211-b37b1474536c8043.mp3"
+        }
+      }
+    },
+    "sfx-heavy-landing": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd73ckv5vtvdzpcn680erjd8dh8b300f"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd73ckv5vtvdzpcn680erjd8dh8b300f/breakline-heavy-landing-bail-ffae64-0b25329533d7fc8d.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Heavy-Landing-Bail-ffae64.mp3",
+          "loaderHint": "audio",
+          "byteSize": 48945,
+          "durationSeconds": 3,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd73ckv5vtvdzpcn680erjd8dh8b300f/breakline-heavy-landing-bail-ffae64-0b25329533d7fc8d.mp3"
+        }
+      }
+    },
+    "sfx-ollie": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd79v29f7v2tq1arhnac8wy7a58b2jgd"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd79v29f7v2tq1arhnac8wy7a58b2jgd/breakline-ollie-af5c4f-575392d6cffed1ca.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Ollie-af5c4f.mp3",
+          "loaderHint": "audio",
+          "byteSize": 17180,
+          "durationSeconds": 1,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd79v29f7v2tq1arhnac8wy7a58b2jgd/breakline-ollie-af5c4f-575392d6cffed1ca.mp3"
+        }
+      }
+    },
+    "sfx-powder": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd729jmcdeh2q87xrgx8nx8csd8b3q8m"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd729jmcdeh2q87xrgx8nx8csd8b3q8m/breakline-powder-burst-e9d73e-f47e5684be896c18.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Powder-Burst-e9d73e.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd729jmcdeh2q87xrgx8nx8csd8b3q8m/breakline-powder-burst-e9d73e-f47e5684be896c18.mp3"
+        }
+      }
+    },
+    "sfx-special-ready": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd72c2c5tbefvnrg53gtrth1zh8b3f7t"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd72c2c5tbefvnrg53gtrth1zh8b3f7t/breakline-special-ready-7cc6a9-617743db00ff4018.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Special-Ready-7cc6a9.mp3",
+          "loaderHint": "audio",
+          "byteSize": 33062,
+          "durationSeconds": 2,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd72c2c5tbefvnrg53gtrth1zh8b3f7t/breakline-special-ready-7cc6a9-617743db00ff4018.mp3"
+        }
+      }
+    },
+    "sfx-yeti-roar": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "audio",
+        "assetId": "xd766yybm54hneyw279pn7ddgx8b37b8"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "audio": {
+          "artifactId": "audio/xd766yybm54hneyw279pn7ddgx8b37b8/breakline-yeti-roar-64efa5-b8b8298d91a8a29f.mp3",
+          "role": "audio",
+          "format": "mp3",
+          "contentType": "audio/mpeg",
+          "filename": "Breakline-Yeti-Roar-64efa5.mp3",
+          "loaderHint": "audio",
+          "byteSize": 48945,
+          "durationSeconds": 3,
+          "runtimeUrl": "https://cdn.mint.gg/audio/xd766yybm54hneyw279pn7ddgx8b37b8/breakline-yeti-roar-64efa5-b8b8298d91a8a29f.mp3"
+        }
+      }
+    },
+    "snowboard": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76q3k9wrr5gyh0pj2eq9wean8b211d"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/teal-prism-snowboard-949f1c0638dfb927.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "teal-prism-snowboard-an8b211d-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 518964,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/teal-prism-snowboard-949f1c0638dfb927.glb"
+        }
+      }
+    },
+    "special-meter": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn79w1g13wjqn3mtyvwaf4k08h8b34kw"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn79w1g13wjqn3mtyvwaf4k08h8b34kw/breakline-special-meter-backing-89350a-5734511cfb182052.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Special-Meter-Backing-89350a.png",
+          "loaderHint": "image",
+          "byteSize": 1220362,
+          "width": 1376,
+          "height": 768,
+          "aspectRatio": 1.7916666666666667,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn79w1g13wjqn3mtyvwaf4k08h8b34kw/breakline-special-meter-backing-89350a-5734511cfb182052.png"
+        }
+      }
+    },
+    "speed-streak": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn76zkqgwbkvahq18dscr5zqt58b2vp5"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn76zkqgwbkvahq18dscr5zqt58b2vp5/breakline-speed-streak-205f44-b1aec6be6d1d2c65.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Speed-Streak-205f44.png",
+          "loaderHint": "image",
+          "byteSize": 1250524,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn76zkqgwbkvahq18dscr5zqt58b2vp5/breakline-speed-streak-205f44-b1aec6be6d1d2c65.png"
+        }
+      }
+    },
+    "title-art": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "image",
+        "assetId": "xn74v4nkea05aekt8jdez4f4jx8b38ka"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "image": {
+          "artifactId": "images/xn74v4nkea05aekt8jdez4f4jx8b38ka/breakline-title-art-c8d9de-6071553b67a14740.png",
+          "role": "image",
+          "format": "png",
+          "contentType": "image/png",
+          "filename": "Breakline-Title-Art-c8d9de.png",
+          "loaderHint": "image",
+          "byteSize": 1055114,
+          "width": 1408,
+          "height": 768,
+          "aspectRatio": 1.8333333333333333,
+          "runtimeUrl": "https://cdn.mint.gg/images/xn74v4nkea05aekt8jdez4f4jx8b38ka/breakline-title-art-c8d9de-6071553b67a14740.png"
+        }
+      }
+    },
+    "yeti": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7d7p32b7dyys9jeghjcd4k258b2jcd"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "canonical_model": {
+          "artifactId": "glb/glacier-grasp-yeti-2bbe0466fd91c4dc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "glacier-grasp-yeti-258b2jcd-optimized.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1180384,
+          "extensionsUsed": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "extensionsRequired": [
+            "EXT_texture_webp",
+            "KHR_draco_mesh_compression"
+          ],
+          "usesDraco": true,
+          "requiresDraco": true,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/glacier-grasp-yeti-2bbe0466fd91c4dc.glb"
+        }
+      }
+    },
+    "yeti-animation": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w576tf2a5b7ysknpkz006b9y9d8b3911"
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "rigged_character_glb": {
+          "artifactId": "glb/glacier-grasp-yeti-9d8b3911-rigged-glb-560584164f1092a0.glb",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "glacier-grasp-yeti-9d8b3911-rigged.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4329160,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/glacier-grasp-yeti-9d8b3911-rigged-glb-560584164f1092a0.glb"
+        },
+        "clip:w97btzzdb74pcc1mafbytfjmss8b3fcr:animation_glb": {
+          "artifactId": "glb/run-fast-ss8b3fcr-glb-60ef012e084aa5de.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "run-fast-ss8b3fcr.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4335204,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-fast-ss8b3fcr-glb-60ef012e084aa5de.glb"
+        },
+        "clip:w97dcsm0ve2c4270h842y3m4z18b2gbj:animation_glb": {
+          "artifactId": "glb/run-and-leap-z18b2gbj-glb-4a3743234a56b018.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "run-and-leap-z18b2gbj.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4382936,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/run-and-leap-z18b2gbj-glb-4a3743234a56b018.glb"
+        },
+        "clip:w97751q46yc116nzn5v8y01hm58b3hde:animation_glb": {
+          "artifactId": "glb/shouting-angrily-m58b3hde-glb-a7176ad006eee1f3.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "shouting-angrily-m58b3hde.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4418656,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/shouting-angrily-m58b3hde-glb-a7176ad006eee1f3.glb"
+        },
+        "clip:w97f11dgg8zxeq02sb6qt9j37d8b214q:animation_glb": {
+          "artifactId": "glb/chest-pound-taunt-7d8b214q-glb-34db0c04a760dc8d.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "chest-pound-taunt-7d8b214q.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4388120,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/chest-pound-taunt-7d8b214q-glb-34db0c04a760dc8d.glb"
+        },
+        "clip:w97d7ajm8a2gz7ftek3qfvbrpx8b2fe9:animation_glb": {
+          "artifactId": "glb/jump-to-catch-and-fall-px8b2fe9-glb-54cd0047f8e02a2b.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "jump-to-catch-and-fall-px8b2fe9.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4376120,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/jump-to-catch-and-fall-px8b2fe9-glb-54cd0047f8e02a2b.glb"
+        },
+        "clip:w9715csxvsnd0zzrhqbrhkrg758b3hn1:animation_glb": {
+          "artifactId": "glb/hit-reaction-758b3hn1-glb-331679e61908429d.glb",
+          "role": "animation_clip",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "filename": "hit-reaction-758b3hn1.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4349664,
+          "extensionsUsed": [
+            "KHR_materials_ior",
+            "KHR_materials_specular"
+          ],
+          "extensionsRequired": [],
+          "usesDraco": false,
+          "requiresDraco": false,
+          "usesMeshopt": false,
+          "requiresMeshopt": false,
+          "usesKtx2": false,
+          "requiresKtx2": false,
+          "unknownRequiredExtensions": [],
+          "runtimeUrl": "https://cdn.mint.gg/glb/hit-reaction-758b3hn1-glb-331679e61908429d.glb"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+services:
+  archive:
+    # Build/tag the reviewed image separately. No automatic deploy/upgrade agent.
+    image: gsmun-archive:release
+    restart: unless-stopped
+    env_file: .env.production
+    environment:
+      GSMUN_R2_DELIVERY: proxy
+      GSMUN_MEDIA_CACHE_DIR: /tmp/gsmun-media-cache
+      GSMUN_MEDIA_CACHE_GB: "8"
+    expose:
+      - "3000"
+    volumes:
+      - media-cache:/tmp/gsmun-media-cache
+      - worker-state:/var/lib/gsmun-worker
+    # Drive credentials/worker secret must be mounted read-only from an approved
+    # PRIVATE server directory using an owner-reviewed compose override. Disabled
+    # by default; never bake credentials into the image or make this volume public.
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+  https:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    # The reverse proxy needs the hostname, never database/storage credentials.
+    environment:
+      ARCHIVE_HOST: "${ARCHIVE_HOST:?Set ARCHIVE_HOST in the private deployment environment}"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  media-cache:
+  worker-state:
+  caddy-data:
+  caddy-config:

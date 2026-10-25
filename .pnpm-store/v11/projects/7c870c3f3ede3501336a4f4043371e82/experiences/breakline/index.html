@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#08252b" />
+    <meta name="description" content="Breakline — a fast original arcade snowboarding chase game." />
+    <title>Breakline</title>
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="game-canvas" tabindex="0" aria-label="Breakline snowboarding game"></canvas>
+      <div id="whiteout" aria-hidden="true"></div>
+
+      <section id="hud" class="is-hidden" aria-live="polite">
+        <div class="hud-left">
+          <div class="speed-cluster panel-art">
+            <strong id="speed-value">000</strong><span>MPH</span>
+            <div id="movement-callout">DROP IN</div>
+          </div>
+          <div id="pursuer-bear" class="pursuer panel-art">
+            <span class="portrait bear" aria-hidden="true"></span>
+            <span class="pursuer-copy"><b>POLAR</b><strong><span id="bear-distance">72</span> M</strong><em>TRACKING</em></span>
+          </div>
+          <div id="pursuer-yeti" class="pursuer panel-art">
+            <span class="portrait yeti" aria-hidden="true"></span>
+            <span class="pursuer-copy"><b>YETI</b><strong><span id="yeti-distance">34</span> M</strong><em>TRACKING</em></span>
+          </div>
+        </div>
+
+        <div id="route-ribbon" aria-label="Route progress and pursuer positions">
+          <span id="route-player" class="route-dot player"></span>
+          <span id="route-yeti" class="route-dot yeti"></span>
+          <span id="route-bear" class="route-dot bear"></span>
+        </div>
+
+        <div class="hud-right">
+          <div class="score-cluster panel-art"><span>SCORE</span><strong id="score-value">0000000</strong></div>
+          <div class="special-cluster panel-art">
+            <span>SPECIAL</span>
+            <div id="special-meter" aria-label="Special meter">
+              <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+
+        <div id="center-callout"><span id="trick-callout">AIR</span><b id="combo-value"></b></div>
+        <div id="danger-vignette" aria-hidden="true"></div>
+      </section>
+
+      <section id="debug-overlay" class="is-hidden" aria-label="Developer diagnostics"></section>
+
+      <section id="screen-title" class="game-screen active">
+        <div class="title-lockup">
+          <p>NO LIFTS. NO LIMITS.</p>
+          <h1>BREAK<span>LINE</span></h1>
+          <p class="title-sub">OUTRUN THE WHITE</p>
+        </div>
+        <div class="menu-actions">
+          <button id="play-button" class="primary" type="button">DROP IN</button>
+          <button id="controls-button" type="button">CONTROLS</button>
+          <button id="settings-button" type="button">SETTINGS</button>
+        </div>
+        <p id="asset-status">LOADING MINT ASSET PIPELINE</p>
+      </section>
+
+      <section id="screen-controls" class="game-screen">
+        <div class="menu-panel">
+          <p class="eyebrow">RIDER MANUAL</p>
+          <h2>CONTROLS</h2>
+          <div class="controls-grid">
+            <span><kbd>A</kbd><kbd>D</kbd> Carve</span><span><kbd>SHIFT</kbd> Tuck</span>
+            <span><kbd>SPACE</kbd> Charge / Ollie</span><span><kbd>Q</kbd><kbd>E</kbd> Spin</span>
+            <span><kbd>Z</kbd><kbd>X</kbd> Flip</span><span><kbd>G</kbd><kbd>H</kbd> Grab</span>
+            <span><kbd>J</kbd> Grind</span><span><kbd>F</kbd> SPECIAL</span>
+            <span><kbd>W</kbd><kbd>S</kbd> Butter</span><span><kbd>R</kbd> Reset</span>
+          </div>
+          <p>Gamepad supported. Active prompts switch automatically.</p>
+          <button class="back-button primary" type="button">BACK</button>
+        </div>
+      </section>
+
+      <section id="screen-settings" class="game-screen">
+        <div class="menu-panel">
+          <p class="eyebrow">TUNE THE RUN</p><h2>SETTINGS</h2>
+          <label>Music <input id="music-volume" type="range" min="0" max="1" value="0.72" step="0.01" /></label>
+          <label>Effects <input id="effects-volume" type="range" min="0" max="1" value="0.85" step="0.01" /></label>
+          <label>Ambience <input id="ambience-volume" type="range" min="0" max="1" value="0.7" step="0.01" /></label>
+          <label>Graphics <select id="quality-select"><option>High</option><option>Medium</option><option>Low</option></select></label>
+          <label class="toggle"><input id="reduced-motion" type="checkbox" /> Reduced camera motion</label>
+          <button class="back-button primary" type="button">BACK</button>
+        </div>
+      </section>
+
+      <section id="screen-pause" class="game-screen">
+        <div class="menu-panel pause-panel">
+          <div class="pause-heading">
+            <div><p class="eyebrow">RUN PAUSED</p><h2>HOLD YOUR LINE</h2></div>
+            <p class="pause-hint"><kbd>ESC</kbd> RESUME</p>
+          </div>
+          <section class="pause-controls" aria-labelledby="pause-controls-title">
+            <h3 id="pause-controls-title">FULL CONTROLS</h3>
+            <div class="control-table" role="table" aria-label="Keyboard and gamepad controls">
+              <div class="control-row control-header" role="row">
+                <span role="columnheader">ACTION</span><span role="columnheader">KEYBOARD</span><span role="columnheader">GAMEPAD</span>
+              </div>
+              <div class="control-row" role="row"><strong role="cell">CARVE</strong><span role="cell"><kbd>A</kbd><kbd>D</kbd> / <kbd>←</kbd><kbd>→</kbd></span><span role="cell"><kbd>LS</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">LOOK</strong><span role="cell"><kbd>MOUSE</kbd></span><span role="cell"><kbd>RS</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">TUCK</strong><span role="cell"><kbd>SHIFT</kbd></span><span role="cell"><kbd>RT</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">OLLIE / RECOVER</strong><span role="cell"><kbd>SPACE</kbd></span><span role="cell"><kbd>A</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">SPIN</strong><span role="cell"><kbd>Q</kbd><kbd>E</kbd></span><span role="cell"><kbd>LS</kbd> IN AIR</span></div>
+              <div class="control-row" role="row"><strong role="cell">FRONT / BACK FLIP</strong><span role="cell"><kbd>Z</kbd><kbd>X</kbd></span><span role="cell"><kbd>X</kbd><kbd>B</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">FRONT / BACK GRAB</strong><span role="cell"><kbd>G</kbd><kbd>H</kbd></span><span role="cell"><kbd>LB</kbd><kbd>RB</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">GRIND</strong><span role="cell"><kbd>J</kbd></span><span role="cell"><kbd>Y</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">NOSE / TAIL BUTTER</strong><span role="cell"><kbd>W</kbd><kbd>S</kbd></span><span role="cell"><kbd>D↑</kbd><kbd>D↓</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">SPECIAL</strong><span role="cell"><kbd>F</kbd></span><span role="cell"><kbd>L3</kbd></span></div>
+              <div class="control-row" role="row"><strong role="cell">RESET RIDER</strong><span role="cell"><kbd>R</kbd></span><span role="cell" aria-label="Not available on gamepad">—</span></div>
+              <div class="control-row" role="row"><strong role="cell">PAUSE / RESUME</strong><span role="cell"><kbd>ESC</kbd></span><span role="cell"><kbd>MENU</kbd></span></div>
+            </div>
+            <p class="touch-control-summary"><b>TOUCH</b> Drag the left stick to carve, then use <b>JUMP</b>, <b>TUCK</b>, <b>GRAB</b>, and <b>SPECIAL</b>.</p>
+          </section>
+          <div class="pause-actions">
+            <button id="resume-button" class="primary" type="button">RESUME</button>
+            <button id="restart-button" type="button">RESTART RUN</button>
+            <button id="quit-button" type="button">QUIT TO TITLE</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="screen-results" class="game-screen">
+        <div class="menu-panel results"><p class="eyebrow" id="result-kicker">RUN OVER</p><h2 id="result-title">WHITEOUT</h2>
+          <dl><div><dt>Score</dt><dd id="result-score">0</dd></div><div><dt>Max speed</dt><dd id="result-speed">0 MPH</dd></div>
+          <div><dt>Longest combo</dt><dd id="result-combo">0</dd></div><div><dt>Best trick</dt><dd id="result-trick">—</dd></div>
+          <div><dt>Distance</dt><dd id="result-distance">0 M</dd></div><div><dt>Caught by</dt><dd id="result-catcher">—</dd></div></dl>
+          <button id="retry-button" class="primary" type="button">RETRY</button><button id="results-title-button" type="button">TITLE</button>
+        </div>
+      </section>
+
+      <div id="touch-controls" aria-label="Mobile controls">
+        <div id="touch-stick"><div id="touch-knob"></div></div>
+        <div class="touch-actions"><button data-action="jump" type="button">JUMP</button><button data-action="tuck" type="button">TUCK</button><button data-action="grab" type="button">GRAB</button><button data-action="special" class="cyan" type="button">SPECIAL</button></div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

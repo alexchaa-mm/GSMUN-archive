@@ -1,0 +1,14 @@
+/* Additive controls only. Existing shelf/header/gallery geometry stays intact. */
+.gallery-tools { display:flex; flex-wrap:wrap; align-items:end; gap:16px; padding:0 0 28px; color:var(--archive-paper,#f7f4e9); }
+.gallery-tools label { display:grid; gap:8px; font-size:12px; letter-spacing:.05em; }
+.gallery-tools label:first-child { flex:1 1 230px; }
+.archive-contents > .gallery-tools { max-width:1480px; margin:0 auto; padding:24px clamp(22px,4.2vw,72px) 0; }
+.gallery-tools input,.gallery-tools select { min-height:44px; min-width:0; width:100%; color:inherit; background:#09291f; border:0; border-bottom:1px solid #6b7c70; padding:9px 12px; font:inherit; }
+.gallery-tools button,.gallery-more { min-height:44px; padding:9px 12px; color:#ffa800; background:transparent; border:0; font:inherit; cursor:pointer; }
+.gallery-tools :focus-visible,.gallery-more:focus-visible,.photo-viewer__zoom:focus-visible { outline:2px solid #ffa800; outline-offset:4px; }
+.gallery-tools button:disabled,.gallery-more:disabled { opacity:.5; cursor:wait; }
+.photo-viewer__zoom { position:absolute; bottom:12px; right:12px; min-height:44px; padding:8px 14px; background:#09291f; color:#f7f4e9; border:1px solid #6b7c70; cursor:pointer; z-index:2; }
+.photo-viewer__stage.is-zoomed { display:block; overflow:auto; touch-action:pan-x pan-y pinch-zoom; }
+.photo-viewer__stage.is-zoomed img { width:200%; height:200%; max-width:none; max-height:none; object-fit:contain; }
+@media(max-width:780px) { .archive-contents > .gallery-tools { padding-inline:12px; } .photo-viewer__caption { display:flex; gap:12px; max-height:70px; overflow:auto; } .photo-viewer__caption p { max-width:none; } }
+@media(max-width:600px) { .gallery-tools { gap:12px; } .gallery-tools label:first-child { flex-basis:100%; } }

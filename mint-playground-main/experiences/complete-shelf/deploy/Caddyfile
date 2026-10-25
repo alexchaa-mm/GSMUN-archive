@@ -1,0 +1,14 @@
+{$ARCHIVE_HOST} {
+  encode zstd gzip
+  request_body {
+    max_size 32MB
+  }
+  header {
+    X-Content-Type-Options nosniff
+    Referrer-Policy strict-origin-when-cross-origin
+    X-Frame-Options DENY
+  }
+  # Poller calls loopback directly; the private internal route is not public.
+  respond /api/internal/* 404
+  reverse_proxy archive:3000
+}

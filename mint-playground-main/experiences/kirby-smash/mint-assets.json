@@ -1,0 +1,400 @@
+{
+  "registryVersion": 1,
+  "assetRoot": "public",
+  "delivery": "mint_cdn",
+  "assets": {
+    "draco-runtime": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "runtime",
+        "assetType": "draco_decoder",
+        "assetId": "draco-gltf-three-0.184.0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "decoder_path": {
+          "artifactId": "draco-gltf-three-0.184.0",
+          "role": "runtime_decoder_path",
+          "format": "directory",
+          "contentType": "application/octet-stream",
+          "runtimeUrl": "https://cdn.mint.gg/runtime/draco/gltf/three-0.184.0/",
+          "loaderHint": "draco"
+        }
+      }
+    },
+    "bg-island": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76h0vh3x75yc8ejsm7cryb398b2433"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/azure-spire-isle-normalized-dcc95f977b51dd53.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/azure-spire-isle-normalized-dcc95f977b51dd53.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1087156
+        }
+      }
+    },
+    "cavern-main": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th72h48h0gz4kaj1ccj94v3fwd8b6f43"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/main-battle-platform-normalized-39350e0c87be9b04.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/main-battle-platform-normalized-39350e0c87be9b04.glb",
+          "loaderHint": "gltf",
+          "byteSize": 993288
+        }
+      }
+    },
+    "cavern-rock": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th72h48h0gz4kaj1ccj94v3fwd8b6f43"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/cavern-rock-formation-normalized-ce4f2c2a2d1d9080.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cavern-rock-formation-normalized-ce4f2c2a2d1d9080.glb",
+          "loaderHint": "gltf",
+          "byteSize": 640192
+        }
+      }
+    },
+    "cavern-slab": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th72h48h0gz4kaj1ccj94v3fwd8b6f43"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/floating-metal-slab-normalized-db8672ff392e27fa.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/floating-metal-slab-normalized-db8672ff392e27fa.glb",
+          "loaderHint": "gltf",
+          "byteSize": 832464
+        }
+      }
+    },
+    "dk": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w57f2v6ncahbgjvdzpfhcd6n0d8b95y1"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/dk.json"
+      },
+      "artifacts": {
+        "rigged_character": {
+          "artifactId": "rigged:w57f2v6ncahbgjvdzpfhcd6n0d8b95y1",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-tie-gorilla-rigged-character-glb-eb94f00f854ed529.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4851308
+        }
+      }
+    },
+    "dk-combat-clips": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w572c2qzgsh1w4vh3mwm522pp98b855w"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/dk.json"
+      },
+      "artifacts": {}
+    },
+    "grenade": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks78cxxhch569e1wnqeddmcs4d8b73rt"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/cyan-core-orb-bomb-normalized-25545bc7ffbe28eb.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/cyan-core-orb-bomb-normalized-25545bc7ffbe28eb.glb",
+          "loaderHint": "gltf",
+          "byteSize": 900284
+        }
+      }
+    },
+    "kirby": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks76d3jtfrkrxyr4h6mz25pqps8b2czr"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/rosy-puff-walker-normalized-f9459238c4cbcd72.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/rosy-puff-walker-normalized-f9459238c4cbcd72.glb",
+          "loaderHint": "gltf",
+          "byteSize": 464996
+        }
+      }
+    },
+    "samus": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w574w1e9pzvqjzrr028qac8ka58b79t5"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/samus.json"
+      },
+      "artifacts": {
+        "rigged_character": {
+          "artifactId": "rigged:w574w1e9pzvqjzrr028qac8ka58b79t5",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/golden-arm-cannon-huntress-rigged-character-glb-96144b3871c1a8fd.glb",
+          "loaderHint": "gltf",
+          "byteSize": 4699384
+        }
+      }
+    },
+    "samus-combat-clips": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w572bevdjjky540cq8v7paf33s8b7kc7"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/samus.json"
+      },
+      "artifacts": {}
+    },
+    "samus-special-clips": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w572hg778shmxj0y50s2wpc2s58b62qh"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/samus.json"
+      },
+      "artifacts": {}
+    },
+    "samus-legacy-clips": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w577s8bmmgtxmcdyy7k14vg3x58b7a6b"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/samus.json"
+      },
+      "artifacts": {}
+    },
+    "fireball": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7e02ymmmzeg1k7phdmbr2dr18baac7"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/ember-core-fireball-normalized-e21c68c8712e29dc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ember-core-fireball-normalized-e21c68c8712e29dc.glb",
+          "loaderHint": "gltf",
+          "byteSize": 608336
+        }
+      }
+    },
+    "mario": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w579ewg468b12kqfvaac1hc5ex8bbhgs"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/mario.json"
+      },
+      "artifacts": {
+        "rigged_character": {
+          "artifactId": "rigged:w579ewg468b12kqfvaac1hc5ex8bbhgs",
+          "role": "rigged_character",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/red-cap-plumber-rigged-character-glb-9c15d8fbbf912f2c.glb",
+          "loaderHint": "gltf",
+          "byteSize": 3558876
+        }
+      }
+    },
+    "mario-basic-clips": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "animation",
+        "assetType": "model_animation_batch",
+        "assetId": "w578f9zveh806cc21dt8xq1f5d8ba6qa"
+      },
+      "mode": "remote_url",
+      "transform": {
+        "clipBundle": "src/runtime-animation/mario.json"
+      },
+      "artifacts": {}
+    },
+    "stage-main": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks7fdzkpt202gxgfar6k2fs6818b33c0"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/gilded-crystal-arena-normalized-b91078d7a0f34ec2.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/gilded-crystal-arena-normalized-b91078d7a0f34ec2.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1567788
+        }
+      }
+    },
+    "stage-slab": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "model",
+        "assetId": "ks78tqpbbd7ahmh354qwhb8wrs8b362s"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/gilded-sky-slab-normalized-1fd98ed30fd45cbc.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/gilded-sky-slab-normalized-1fd98ed30fd45cbc.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1074092
+        }
+      }
+    },
+    "summit-main": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7dkgvk3k8smkc5318z2r4c9d8b67p3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/snow-ledge-platform-normalized-d459023f5f8c5678.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/snow-ledge-platform-normalized-d459023f5f8c5678.glb",
+          "loaderHint": "gltf",
+          "byteSize": 630456
+        }
+      }
+    },
+    "summit-peak": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7dkgvk3k8smkc5318z2r4c9d8b67p3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/ice-mountain-peak-normalized-811645be00263762.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/ice-mountain-peak-normalized-811645be00263762.glb",
+          "loaderHint": "gltf",
+          "byteSize": 932424
+        }
+      }
+    },
+    "summit-slab": {
+      "source": {
+        "manifestVersion": 1,
+        "kind": "asset",
+        "assetType": "asset_pack",
+        "assetId": "th7dkgvk3k8smkc5318z2r4c9d8b67p3"
+      },
+      "mode": "remote_url",
+      "artifacts": {
+        "model": {
+          "artifactId": "glb/wooden-plank-platform-normalized-13a519633adda950.glb",
+          "role": "canonical_model",
+          "format": "glb",
+          "contentType": "model/gltf-binary",
+          "runtimeUrl": "https://cdn.mint.gg/glb/wooden-plank-platform-normalized-13a519633adda950.glb",
+          "loaderHint": "gltf",
+          "byteSize": 1065004
+        }
+      }
+    }
+  }
+}

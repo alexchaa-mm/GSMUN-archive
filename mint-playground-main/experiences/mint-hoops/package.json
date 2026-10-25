@@ -1,0 +1,17 @@
+{
+  "name": "@mint/playground-experience-mint-hoops",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5193",
+    "build": "vite build --base /_experiences/mint-hoops/"
+  },
+  "dependencies": {
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.185.1",
+    "vite": "7.3.6"
+  }
+}

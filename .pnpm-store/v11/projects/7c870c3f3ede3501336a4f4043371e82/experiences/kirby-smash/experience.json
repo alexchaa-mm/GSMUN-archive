@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "order": 270,
+  "slug": "kirby-smash",
+  "title": "Kirby Smash",
+  "description": "Battle across three floating arenas in a 2.5D platform fighter with four selectable combatants, local two-player or CPU matches, percent damage, stocks, and Smash-style knockback.",
+  "status": "published",
+  "publishedAt": "2026-07-27",
+  "tags": [
+    "Three.js",
+    "Platform Fighter",
+    "Local Multiplayer",
+    "Combat",
+    "Arcade"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a 2.5D platform fighter with damage, stocks, knockback, local multiplayer, and CPU matches.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Four stylized arena fighters with distinct silhouettes and combat roles."
+      },
+      {
+        "kind": "asset-pack",
+        "brief": "Three floating arenas: sky ruins, a molten cavern, and an icy summit."
+      }
+    ],
+    "experience": [
+      "Choose fighters, an arena, CPU difficulty, or local two-player mode before each match.",
+      "Fight with jumps, attacks, specials, percent-scaled knockback, stocks, KOs, and rematches."
+    ],
+    "visualDirection": "Bright toy-like arcade combat with readable silhouettes, elemental arenas, and punchy HUD feedback."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/kirby-smash/social-card.webp",
+    "alt": "Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands."
+  },
+  "social": {
+    "title": "Kirby Smash",
+    "description": "A polished 2.5D platform fighter with four combatants, three arenas, CPU matches, and local multiplayer.",
+    "image": {
+      "src": "/experience-assets/kirby-smash/social-card.webp",
+      "alt": "Two colorful fighters battle on a floating three-platform arena above waterfalls and distant sky islands.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#E578B4"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/kirby-smash/index.html",
+    "title": "Kirby Smash"
+  }
+}

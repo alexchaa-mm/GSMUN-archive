@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "order": 260,
+  "slug": "complete-shelf",
+  "title": "The Complete Shelf",
+  "description": "Browse nineteen procedural hardcovers on a continuous 3D shelf, then pull any volume forward to orbit, zoom, and inspect its editorial details.",
+  "status": "published",
+  "publishedAt": "2026-07-27",
+  "tags": [
+    "Three.js",
+    "Books",
+    "Editorial",
+    "Interaction",
+    "Showcase"
+  ],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a warm editorial 3D library where people browse a continuous shelf and inspect individual hardcovers.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "A cohesive 19-piece library of varied clothbound hardcovers with distinct proportions and abstract foil motifs."
+      }
+    ],
+    "experience": [
+      "Browse the continuous shelf with drag, wheel, arrow keys, buttons, or position markers.",
+      "Pull the selected book forward into a detailed orbit, pan, and zoom inspection view."
+    ],
+    "visualDirection": "Warm editorial minimalism with cream paper, walnut shelving, serif typography, and muted clothbound covers."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/complete-shelf/social-card.webp",
+    "alt": "A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf."
+  },
+  "social": {
+    "title": "The Complete Shelf",
+    "description": "Browse nineteen procedural hardcovers and pull any volume forward for close inspection.",
+    "image": {
+      "src": "/experience-assets/complete-shelf/social-card.webp",
+      "alt": "A warm editorial 3D bookshelf with colorful procedural hardcovers arranged above a walnut shelf.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#4D746D"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/complete-shelf/index.html",
+    "title": "The Complete Shelf"
+  }
+}

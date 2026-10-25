@@ -1,0 +1,20 @@
+# Dockerfile-specific ignore, applied to the repository-root build context.
+**/node_modules
+**/.local
+**/.git
+**/.env*
+**/dist
+**/.next
+**/.agents
+**/.codex
+**/.aws
+**/*.log
+**/*.pem
+**/*credentials*
+**/*service-account*.json
+**/*worker-secret*.txt
+**/*worker-session*.json
+**/*integration-approval*.json
+**/supabase/.temp
+**/secrets
+.gsmun-backups

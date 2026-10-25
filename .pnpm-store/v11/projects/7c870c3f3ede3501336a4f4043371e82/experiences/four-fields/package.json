@@ -1,0 +1,29 @@
+{
+  "name": "@mint/playground-experience-four-fields",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A timed 3D harvesting game set on a storybook miniature farm.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base /_experiences/four-fields/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "^0.185.1",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}

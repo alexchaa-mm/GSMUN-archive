@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 2,
+  "order": 230,
+  "slug": "breakline",
+  "title": "Breakline",
+  "description": "Carve a 1.8 km mountain, chain tricks and grinds, and stay ahead of a Yeti and polar bear in a third-person arcade snowboarding chase.",
+  "status": "published",
+  "publishedAt": "2026-07-25",
+  "tags": ["Three.js", "Snowboarding", "Arcade", "Sports Game", "Rapier"],
+  "prompt": {
+    "version": 1,
+    "objective": "Build a fast downhill snowboarding chase with tricks and relentless pursuers.",
+    "mintAssets": [
+      {
+        "kind": "asset-pack",
+        "brief": "Alpine props and five terrain-park jumps."
+      },
+      {
+        "kind": "model-animation",
+        "brief": "A rider and Yeti with chase, trick, hit, and victory motions."
+      },
+      {
+        "kind": "material-pack",
+        "brief": "Snow, ice, rock, bark, metal, clothing, and board surfaces."
+      },
+      {
+        "kind": "audio",
+        "brief": "Wind, music, carving, grinding, landings, boosts, and roars."
+      }
+    ],
+    "experience": [
+      "Carve and chain tricks while two pursuers close in.",
+      "Support keyboard, gamepad, and touch controls."
+    ],
+    "visualDirection": "Bright alpine arcade action with teal accents, powder trails, and a clean sports HUD."
+  },
+  "thumbnail": {
+    "src": "/experience-assets/breakline/social-card.webp",
+    "alt": "A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers."
+  },
+  "social": {
+    "title": "Breakline",
+    "description": "Carve, trick, grind, and outrun two mountain pursuers.",
+    "image": {
+      "src": "/experience-assets/breakline/social-card.webp",
+      "alt": "A snowboarder carves through a bright alpine course as the HUD tracks closing polar bear and Yeti pursuers.",
+      "width": 1200,
+      "height": 630,
+      "accent": "#43F2C2"
+    }
+  },
+  "runtime": {
+    "kind": "bundle",
+    "src": "/_experiences/breakline/index.html",
+    "title": "Breakline"
+  }
+}
